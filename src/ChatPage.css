@@ -1,0 +1,21 @@
+.ChatPage-container{
+    display: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+.ChatPage-header{
+    position:absolute;
+    margin-right: auto;
+    margin-left: auto;
+    top: 5px;
+    right: 0px;
+    left: 0px;
+    z-index: 999;
+
+}
+
