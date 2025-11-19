@@ -1,9 +1,9 @@
 import { Link } from 'react-router';
-
-export default function Navbar() {
+import homebutton from "./img/homebutton.png"
+export default function Backbutton() {
     return (
-        <nav>
-            <Link to="/">Home</Link> | <Link to="/chat">Chat</Link>
-        </nav>
+    
+        <Link to="/"><img src={homebutton}/></Link> 
+        
     );
 }
