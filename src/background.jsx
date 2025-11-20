@@ -1,11 +1,15 @@
-import './background.css'
+import React from "react";
+import "./background.css";
 
-export default function PsychedelicBackground() {
-    return(
-        <div className="PsychBG">
-            <div className="blob"></div>
-            <div className="blob"></div>
-            <div className="blob"></div>
-        </div>
-    )
-}
+const Kaleido = () => {
+  return (
+    <div className="kaleido-container">
+      <div className="kaleido-pattern"></div>
+      <div className="kaleido-pattern"></div>
+      <div className="kaleido-pattern"></div>
+      <div className="kaleido-pattern"></div>
+    </div>
+  );
+};
+
+export default Kaleido;

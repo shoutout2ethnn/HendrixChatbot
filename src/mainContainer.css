@@ -1,0 +1,17 @@
+.main-container {
+  display: flex;
+  justify-content: center; /* side-by-side horizontally */
+  align-items: center;     /* vertical alignment */
+  gap: 40px;               /* space between UI box and image */
+  height: 100vh;           /* fill viewport height */
+  overflow: hidden;        /* prevent scrollbars */
+  padding: 20px;           /* optional padding */
+}
+
+.hendrix-image {
+  width: 500px;    /* adjust as needed */
+  height: 500px;
+  border-radius: 15px;
+  margin-top: 35px;
+  margin-left: -50px;
+}
