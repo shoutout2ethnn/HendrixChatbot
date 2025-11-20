@@ -1,9 +1,21 @@
 .ChatPage-container{
-    display: relative;
+    position: relative;
     min-height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.main-chat-area-wrapper {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
 
 
 
@@ -19,3 +31,12 @@
 
 }
 
+.script-wrapper,
+.AI-chat-wrapper {
+    width: 70vw;
+    height: 80vh;
+    max-width: 950px;
+    max-height: 700px;
+    margin-top: auto;
+    margin-bottom: 50px;
+}

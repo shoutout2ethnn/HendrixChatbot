@@ -1,0 +1,49 @@
+{
+ "q1": {
+    "text" : "How are you?",
+    "options" : [
+        {"text": "good!", "nextId": "q2_good"},
+        {"text": "Not so good,", "nextId": "q2_bad"}
+    ]
+ },
+    "q2_good": {
+        "text" : "That's great to hear! What would you like to talk about?",
+        "options" : [
+            {"text": "The weather", "nextId": "q3_weather"},
+            {"text": "The pickle lighter", "nextId": "pickle"}
+        ]
+    },
+    "q2_bad": {
+        "text" : "I'm sorry to hear that.",
+        "options" : [
+            {"text": "Im really sad", "nextId": "q3_talk"},
+            {"text": "dont be, im a real thugger", "nextId": "END"}
+        ]
+    },
+    "q3_weather": {
+        "text": "Quite cold today innit?", 
+        "options": [ {"text": "innit mate!", "nextId": "END" }]
+    },
+    "pickle": {
+        "text": "PICKLE!?, nah man i dont want no damn pickle lighter!!!!.", 
+        "options" : [
+            {"text": "please i need it", "nextId": "END"},
+            {"text": "ok nevermind", "nextId": "END"}
+        ]   
+},
+    "q3_talk": {
+        "text": "right you're boring me now mate, goodbye.",
+        "options" :[
+            {"text" : "ok", "nextId" : "END"}
+        ]
+    }
+
+
+
+
+
+
+
+
+
+}
